@@ -10,7 +10,7 @@ Then, once inside nano, I wrote:
 filename=$1
 num_lines=$2
 
-if [ $# -ne 2 ]; then
+if [[ $# -ne 2 ]]; then
   echo "Usage: $0 <file> <num_lines>"
   exit 1
 fi
